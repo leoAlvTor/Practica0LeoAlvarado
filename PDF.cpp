@@ -9,6 +9,7 @@ void PDF::crearPDF() {
     Image image1(Geometry(595, 1684, 5, 5), Color("white"));
     image1.font("helvetica");
     image1.annotate("\n Practica 1-1 Parte 1 \n Leonardo Alvarado 15/10/22"
+                    "\n GITHUB URL: https://github.com/leoAlvTor/Practica0LeoAlvarado"
                     "\n \t DOS IMAGENES PROCESADAS:", NorthWestGravity);
 
     cout << "Ingrese la URL de una imagen procesada (Dentro del directorio de la opcion 1): ";
